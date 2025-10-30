@@ -1,0 +1,12 @@
+.contactcard{
+    width: 15%;
+    background-color: rgb(135, 187, 232);
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.body{
+    display: flex;
+    margin: 10px;
+}
