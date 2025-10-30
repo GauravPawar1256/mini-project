@@ -1,0 +1,33 @@
+.header{
+    font-size: 42px ;
+    color: blue;
+    font-weight: bold;
+}
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outerbox{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(137, 199, 253);
+}
+input{
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 10px
+}
+select{
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    border: 1px solid blue;
+    border-radius: 10px
+}
+.button{
+    margin: 10px;
+}
