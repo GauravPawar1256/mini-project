@@ -17,6 +17,8 @@ export default function Dashboard() {
         setUnit(event.target.value);
     }
     function handleCalculateBmi() {
+        console.log(weight,height,unit,);
+        
         if (!weight || !height) {
             alert("Please enter all information");
             return;
