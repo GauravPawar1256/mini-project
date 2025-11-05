@@ -1,0 +1,70 @@
+{
+  "studentInformation": [
+    {
+      "id": "abd0",
+      "studentID": "123",
+      "name": "Phaple Sahil Sanjay",
+      "email": "shailpahaple@gamil.com",
+      "phNumber": "09864123232",
+      "dob": "2025-10-31",
+      "gender": "Male",
+      "course": "tybcs",
+      "year": "4rt sem",
+      "enrollmentDate": "2025-11-28",
+      "grade": "10.0"
+    },
+    {
+      "studentID": "3425",
+      "name": "pawar shardul sampat",
+      "email": "shardulpawar@gmail.com",
+      "phNumber": "23456798956",
+      "dob": "2025-10-30",
+      "gender": "Male",
+      "course": "tybcs",
+      "year": "5th",
+      "enrollmentDate": "2024-12-12",
+      "grade": "8.5",
+      "id": "e764"
+    },
+    {
+      "id": "c257",
+      "studentID": "1256",
+      "name": "pawar gaurav ramesh",
+      "email": "gauravpawar@gmail.com",
+      "phNumber": "7972386067",
+      "dob": "2025-11-06",
+      "gender": "Male",
+      "course": "TY BSc(CS)",
+      "year": "5th sem",
+      "enrollmentDate": "2025-11-25",
+      "grade": "212",
+      "enrollmentData": "1"
+    },
+    {
+      "id": "721c",
+      "studentID": "wdqdhgfsd",
+      "name": "wdguyegdu",
+      "email": "wdgggh",
+      "phNumber": "uydhsyudg",
+      "dob": "",
+      "gender": "Male",
+      "course": "jwgduyswds",
+      "year": "edcede",
+      "enrollmentDate": "",
+      "grade": "sdsdsd"
+    },
+    {
+      "id": "ef68",
+      "studentID": "wdqdhgfsd",
+      "name": "wdguyegdu",
+      "email": "wdgggh",
+      "phNumber": "uydhsyudg",
+      "dob": "",
+      "gender": "",
+      "course": "jwgduyswdsaaaaaaaaaaaaaaaaaaaaa",
+      "year": "edcede",
+      "enrollmentDate": "",
+      "grade": "sdsdsd"
+    }
+  ]
+}

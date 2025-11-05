@@ -1,0 +1,31 @@
+.background{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.boxsection{
+    width: 30%;
+    border: 1px solid black;
+    margin: auto;
+    padding: 15px;
+    
+}
+.singleinformation{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+input{
+    width: 60%;
+    border:1px solid rgb(72, 70, 70);
+    border-radius: 4px;
+    height: 20px;
+}
+select{
+    width: 61%;
+    border:1px solid rgb(72, 70, 70);
+    border-radius: 4px;
+    height: 25px;
+
+}
