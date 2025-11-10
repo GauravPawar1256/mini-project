@@ -1,97 +1,140 @@
-.outerBody{
-    height: 100vh;
+/* === Base Styles === */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+/* === Layout === */
+.outerBody {
+    min-height: 100vh;
     background-color: rgb(208, 212, 120);
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 1rem;
 }
-.appname{
-    font-size: 62px;
+
+.appname {
+    font-size: 3.8rem;
     font-weight: 700;
     color: blue;
     text-shadow: 1px 1px 2px pink;
-
+    margin-bottom: 1rem;
+    text-align: center;
 }
-.boxsection{
+
+.boxsection {
     width: 50%;
+    max-width: 800px;
     background-color: white;
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
     border-radius: 10px;
     box-shadow: 1px 1px 15px 1px rgb(125, 121, 121);
-
 }
-input{
-    height: 30px;
-    padding: 10px;
-    font-size: 18px;
+
+/* === Inputs & Buttons === */
+input, .heightinput, select {
+    height: 50px;
+    padding: 0.6rem;
+    font-size: 1rem;
     width: 40%;
     border: 2px solid rgb(208, 212, 120);
     border-radius: 8px;
     margin: 10px;
     box-shadow: 1px 1px 5px 1px rgb(125, 121, 121);
-
 }
-button{
-    height: 40px;
+
+select {
+    width: 15%;
+    height: 50px;
+}
+
+/* === Buttons === */
+button, .resetbutton {
+    height: 45px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 1rem;
     text-align: center;
-    width: 30%;
+    width: 40%;
+    border: 2px solid rgb(208, 212, 120);
+    border-radius: 8px;
+    margin: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button {
     background-color: rgb(45, 128, 0);
-    color: white;
-    border: 2px solid rgb(208, 212, 120);
-    border-radius: 8px;
-    margin: 5px;
 }
-.resetbutton{
-     height: 40px;
-    padding: 10px;
-    font-size: 18px;
-    text-align: center;
-    width: 30%;
+button:hover {
+    background-color: rgb(36, 102, 0);
+}
+
+.resetbutton {
     background-color: rgb(180, 9, 9);
-    color: white;
-    border: 2px solid rgb(208, 212, 120);
-    border-radius: 8px;
-    margin: 5px;
 }
-.heightinput{
-    height: 30px;
-    padding: 10px;
-    font-size: 18px;
-    width: 30%;
-    border: 2px solid rgb(208, 212, 120);
-    border-radius: 8px;
-    margin: 10px 0px;
-    box-shadow: 1px 1px 5px 1px rgb(125, 121, 121);
+.resetbutton:hover {
+    background-color: rgb(140, 0, 0);
+}
 
+/* === Text === */
+p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
 }
-select{
-    height: 53px;
-    padding: 10px;
-    font-size: 18px;
-    width: 10%;
-    border: none;
-    border: 2px solid rgb(208, 212, 120); 
-    border-radius: 8px;
-    /* border-left: none; */
-    margin: 15px 0px;
-     box-shadow: 1px 1px 5px 1px rgb(125, 121, 121);
 
+/* === Responsive Design === */
+
+/* Medium devices (tablets) */
+@media (max-width: 992px) {
+    .boxsection {
+        width: 70%;
+    }
+
+    input, .heightinput, select, button, .resetbutton {
+        width: 70%;
+    }
+
+    .appname {
+        font-size: 3rem;
+    }
 }
-/* label{
-     height: 40px;
-    padding: 10px;
-    font-size: 18px;
-    width: 50%;
-    border: 2px solid rgb(208, 212, 120);
-    border-right: none;
-    border-radius: 8px;
-    margin: 15px;
-    box-shadow: 1px 1px 5px 1px rgb(125, 121, 121);
-} */
-p{
-    font-size: 20px;
+
+/* Small devices (mobile phones) */
+@media (max-width: 600px) {
+    .outerBody {
+        padding: 10px;
+    }
+
+    .boxsection {
+        width: 95%;
+        padding: 1.5rem;
+    }
+
+    .appname {
+        font-size: 2.4rem;
+    }
+
+    input, .heightinput, select, button, .resetbutton {
+        width: 100%;
+        font-size: 1rem;
+        margin: 8px 0;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    p {
+        font-size: 1rem;
+    }
 }
