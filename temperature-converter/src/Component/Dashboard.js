@@ -5,8 +5,8 @@ export default function Dashboard() {
     const [degree, setDegree] = useState(0);
     const [fromUnit, setFromUnit] = useState("°C");
     const [toUnit, setToUnit] = useState("Celsius");
-    const [output, setOutput] = useState();
-    const [outputunit, setoutputUnit] = useState("");
+    const [output, setOutput] = useState("32");
+    const [outputunit, setoutputUnit] = useState("F");
 
     function handleDegreeChange(event) {
         setDegree(event.target.value);

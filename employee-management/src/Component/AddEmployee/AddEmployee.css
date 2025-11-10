@@ -1,0 +1,83 @@
+/* === Outer container for centering === */
+.outersection {
+    background-color: rgb(226, 231, 237);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.boxSection {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    width: 420px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+ h1 {
+    text-align: center;
+    color: navy;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.singleinputsection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.singleinputsection label,
+.boxSection > div > label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+.inputsectionuser {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.inputsectionuser:focus {
+    border-color: navy;
+}
+.boxSection input[type="radio"] {
+    margin: 0 5px 0 10px;
+    accent-color: navy;
+}
+
+.boxSection input[type="radio"]:first-of-type {
+    margin-left: 0;
+}
+.savebutton {
+    display: block;
+    background-color: navy;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin: 25px auto;
+}
+
+.savebutton:hover {
+    background-color: #0b2a8f;
+    transform: scale(1.03);
+}
+.genderGroup {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.genderGroup label {
+    font-weight: 500;
+    color: #444;
+}
+

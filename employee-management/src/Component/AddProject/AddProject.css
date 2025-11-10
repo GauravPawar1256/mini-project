@@ -1,0 +1,49 @@
+
+
+.backgrounddiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #f4f7f8;
+}
+
+.boxDiv {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.inputprojectName,
+.inputprojectDetails {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.inputprojectDetails {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.saveProjectButton {
+  width: 100%;
+  padding: 12px;
+  background-color: navy;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.saveProjectButton:hover {
+  background-color: #45a049;
+}
