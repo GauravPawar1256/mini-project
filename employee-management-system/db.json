@@ -1,0 +1,71 @@
+{
+  "employeeList": [
+    {
+      "id": "0e7b",
+      "name": "grv",
+      "ID": "2224",
+      "address": "2224",
+      "contactNumber": "09604325617",
+      "projectName": "gaurav",
+      "email": "pawargaurav1256@gmail.com"
+    },
+    {
+      "id": "e31c",
+      "name": "gaurav ramesh pawar ",
+      "ID": "12344",
+      "address": "belapur badgi akole ahiyanagar",
+      "contactNumber": "7972386067",
+      "projectName": "uvfhuehbbiubvhigubuigb",
+      "email": "frfhrugggggggggggggggggggggggggggggggh"
+    },
+    {
+      "id": "edcc",
+      "name": "shardul pawar ",
+      "ID": "345",
+      "address": "vfvhbjfvbjhbhj jhvhsdfy hrfgeugvv ggt",
+      "contactNumber": "78635241325",
+      "projectName": "ghtrfdescavf hjgcdc  djkfvfjdvfbvgd itiutyiuhbn",
+      "email": "shardulpawar@gmail.com"
+    },
+    {
+      "id": "4dad",
+      "name": "grave",
+      "ID": "2224",
+      "address": "2224",
+      "contactNumber": "09604325617",
+      "email": "pawargaurav1256@gmail.com"
+    }
+  ],
+  "projectInformation": [
+    {
+      "id": "d374",
+      "projectName": "Website Redesign",
+      "projectDetails": "Update the company website with a modern UI/UX, improve load times, and ensure mobile responsiveness.",
+      "postEmployee": ""
+    },
+    {
+      "id": "c847",
+      "projectName": "Holiday Season Marketing Blitz",
+      "projectDetails": "The project aims to create and execute a comprehensive marketing campaign during the holiday season to increase brand visibility and drive sales. Key activities include social media marketing, email marketing campaigns, influencer partnerships, content creation, paid advertisements, and customer engagement strategies. The campaign will be closely monitored using analytics to optimize ad spend, track conversion rates, and ensure maximum ROI. Post-campaign reporting will highlight success metrics and areas for improvement for future campaigns.",
+      "postEmployee": ""
+    },
+    {
+      "id": "94d6",
+      "projectName": "Cross-Platform Mobile App Launch",
+      "projectDetails": "This project involves the development of a cross-platform mobile application for the company’s e-commerce platform. The app will include features such as user registration, product catalog browsing, shopping cart, secure payment gateways, push notifications, order tracking, and analytics dashboards. A major focus is on performance optimization and ensuring that the app provides a smooth experience on both iOS and Android devices. The project also includes beta testing, bug fixes, and integration with the existing backend systems.",
+      "postEmployee": ""
+    },
+    {
+      "id": "bc1e",
+      "projectName": "Enterprise Data Migration to Cloud CRM",
+      "projectDetails": "This project focuses on migrating company data from a legacy CRM system to a modern cloud-based CRM solution. The project includes data mapping, cleaning, and validation to ensure data accuracy and integrity. Special attention will be given to sensitive information security, minimizing downtime during migration, and ensuring that all historical data is correctly transferred. Post-migration, the project will include staff training sessions and support to ensure seamless adoption of the new system.",
+      "postEmployee": ""
+    },
+    {
+      "id": "1eca",
+      "projectName": "Mobile App Launch",
+      "projectDetails": "Develop a cross-platform mobile application with user authentication, shopping cart functionality, secure payment integration, push notifications, and analytics tracking. The app should align with brand guidelines and provide a seamless, intuitive experience for end-users.",
+      "postEmployee": ""
+    }
+  ]
+}
