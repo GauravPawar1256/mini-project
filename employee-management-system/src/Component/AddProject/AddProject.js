@@ -8,7 +8,7 @@ export default function AddProject() {
     const[projectDetails ,setProjectDetails]=useState({
         projectName:"",
         projectDetails:"",
-        postEmployee:""
+        postEmployee: []  
     });
     function handleProjectName(event){
         let projectInfo ={...projectDetails}
@@ -51,7 +51,7 @@ export default function AddProject() {
     }
     return (
         <div className="m-0 bg-slate-200 min-h-screen">
-            <div className="bg-gray-800 text-white flex justify-between px-8 py-4 items-center">
+            <div className="bg-gray-800 text-white flex justify-between px-8 py-4 items-center ">
                 <div className="text-2xl font-bold">Add Project</div>
                 <div>
                     <button className="bg-white text-black font-semibold px-3 py-1 rounded-md mx-2 hover:bg-gray-200 transition" onClick={handleAllProjects}> All Project</button>
@@ -69,7 +69,7 @@ export default function AddProject() {
                             <label className="block text-gray-700 font-medium mb-1">Project Details</label>
                             <textarea type="text" value={projectDetails.projectDetails} onChange={handleProjectDetails} placeholder="Enter employee ID" className="w-full border border-gray-300 rounded-md p-2 h-48 focus:outline-none focus:ring-2 focus:ring-blue-500" />
                         </div>
-                        <button className="w-full bg-gray-800 text-white font-semibold py-2 rounded-md mt-4 hover:bg-green-700 transition">Post employee</button>
+                        <button className="w-full bg-gray-800 text-white font-semibold py-2 rounded-md mt-4 hover:bg-green-700 transition"onClick={() => navigate(`/employeelist?projectId=${id || "new"}`)}>Post employee</button>
                         <button className="w-full bg-gray-800 text-white font-semibold py-2 rounded-md mt-4 hover:bg-green-700 transition" onClick={handleSaveProject}>Add Project</button>
                    
                 </div>

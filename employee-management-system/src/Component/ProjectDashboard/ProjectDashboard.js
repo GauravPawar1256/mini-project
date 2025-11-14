@@ -22,7 +22,7 @@ export default function ProjectDashboard() {
                 .then((response) => {
                     setProjectOnDashboard(response.data);
                 })
-            }
+        }
     }, [id]);
     function handleDeleteproject(id) {
         axios.delete(`http://localhost:4200/projectInformation/${id}`)
